@@ -1,0 +1,26 @@
+ import java.util.Scanner;
+/**
+ *
+ * @author Daricia
+ */
+public class Code2040 {
+ public static Scanner Keyboard = new Scanner(System.in);
+   public static void main(String args[])
+   {
+       //variable declaration 
+      String oldsentence, newsentence = "";
+      
+      //input
+      System.out.println("Enter a word: ");
+      oldsentence = Keyboard.nextLine();
+ 
+      int length = oldsentence.length();
+ 
+      for( int i = length - 1 ; i >= 0 ; i-- ){
+   newsentence = newsentence + oldsentence.charAt(i);
+      }//end of for loop
+      
+      //output 
+      System.out.println("The new reversed version is: "+newsentence);
+   }
+}
