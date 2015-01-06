@@ -1,4 +1,4 @@
-Code2040
+Code2040 fellowship application
 ========
 
-Challenge for fellowship application 
+This challenge had various problems that were all completed using Java. 
